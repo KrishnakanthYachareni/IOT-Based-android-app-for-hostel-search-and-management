@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#fff2f4">
+     <ScrollView
+         android:layout_below="@+id/button1"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+        >
+        <HorizontalScrollView
+             android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+    <TableLayout 
+    
+    android:id="@+id/table"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+           >
+           
+            
+</TableLayout>
+    </HorizontalScrollView>
+     
+   </ScrollView>
+    
+
+</RelativeLayout>

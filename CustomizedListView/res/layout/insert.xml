@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/bg_screen3">
+       <ImageView
+            android:layout_width="@dimen/img_width_height"
+            android:layout_height="@dimen/img_width_height"
+            android:src="@drawable/ic_discount" 
+            android:layout_gravity="center"/>
+<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hostel Booking"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+    <EditText
+        android:id="@+id/e1"
+        android:numeric="integer"
+      android:hint="Enter number of beds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        >
+
+        <requestFocus />
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/e2"
+        android:hint="Enter yor full name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/e3"
+        android:numeric="integer"
+        android:hint="Enter Mobile no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Click to Book" 
+        android:textColor="#FF0099"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="#33CC00"
+        android:textStyle="italic"
+        android:textSize="20dp"/>
+
+</LinearLayout>

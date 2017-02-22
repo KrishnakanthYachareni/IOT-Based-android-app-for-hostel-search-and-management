@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CustomizedListView!</string>
+    <string name="app_name">HostelSearch</string>
+     <string name="slide_3_title">Great Hostels</string>
+    <string name="slide_3_desc">Best discounts on every hostel !</string>
+      <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+</resources>
